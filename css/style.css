@@ -54,6 +54,15 @@ header {
     font-size: 5em;
     font-family: Bebas;
     margin-bottom: 50px;
+    opacity: 0;
+    transition: all 2s ease-in-out 0s;
+}
+.title1Display{
+    color: #ffffff;
+    font-size: 5em;
+    font-family: Bebas;
+    margin-bottom: 50px;
+    opacity: 1;
 }
 .title2{
     margin-bottom: 30px;
