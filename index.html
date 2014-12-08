@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Christmas Wish</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <header>
+        <div class="compteur">
+            <p>vues :<strong>123</strong></p>
+        </div>
+    </header>
+    <!-- Main content -->
+    <section id="content">
+        <div class="container">
+            <div class="row row-centered">
+                <div class="col-md-8 col-centered">
+                    <h1>MAKE A WISH</h1>
+                   <form action="">
+                        <input type="text" class="inputWish"/>
+                        <button type="submit" class="btnWish">Ok</button>
+                    </form>
+                    <div class="fb-share-button" data-href="http://christmas-wish.com/" data-layout="button_count"></div>
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://christmas-wish.com/" data-text="Christmas is coming make a wish in yours friends" data-via="MakeXmasWish" data-size="large" data-hashtags="christmas_wish">Tweet</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+
+        </div>
+    </footer>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&appId=269876749864098&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<script type="text/javascript" src="script/bootstrap.min.js"></script>
+</body>
+</html>

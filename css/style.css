@@ -1,0 +1,50 @@
+/**************************** CSS ************************************/
+
+body{
+    background: url(../img/background.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+header {
+    height: 200px;
+}
+
+.compteur{
+    position: absolute;
+    top:0;
+    right:0;
+
+}
+
+#content{
+    height: auto;
+
+}
+
+.inputWish{
+    font-size: 2em;
+}
+
+.btnWish{
+    font-size:2em;
+    border-color: 1px solid #ffffff;
+    background-color: rgba(255,255,255,0.46);
+    color: #ffffff;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
